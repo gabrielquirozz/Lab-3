@@ -11,14 +11,14 @@ public class Destroy2 : MonoBehaviour
     void Start()
     {
         Score = 0;
-        score.text = "Score :" + Score ;
+        score.text = "Score: " + Score ;
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        score.text = "Score :" + Score;
+        score.text = "Score: " + Score;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -27,12 +27,12 @@ public class Destroy2 : MonoBehaviour
         {
             Destroy(gameObject);
             Score = 1;
-            score.text = "Score :" + Score;
+            score.text = "Score: " + Score;
         }
         else
         {
             Score = 0;
-            score.text = "Score :" + Score;
+            score.text = "Score: " + Score;
 
         }
             

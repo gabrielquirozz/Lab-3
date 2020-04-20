@@ -56,11 +56,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12112}
     - Class: 114
-      Script: {instanceID: 12590}
+      Script: {instanceID: 12592}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12862}
     - Class: 114
-      Script: {instanceID: 21684}
+      Script: {instanceID: 12946}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -127,19 +127,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12194}
     - Class: 114
-      Script: {instanceID: 12286}
+      Script: {instanceID: 12270}
     - Class: 114
-      Script: {instanceID: 12590}
+      Script: {instanceID: 12288}
     - Class: 114
-      Script: {instanceID: 12938}
+      Script: {instanceID: 12592}
     - Class: 114
-      Script: {instanceID: 12986}
+      Script: {instanceID: 12624}
     - Class: 114
-      Script: {instanceID: 18682}
+      Script: {instanceID: 12688}
     - Class: 114
-      Script: {instanceID: 19250}
+      Script: {instanceID: 12946}
     - Class: 114
-      Script: {instanceID: 26532}
+      Script: {instanceID: 12994}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -428,6 +428,12 @@ ScriptsOnlyBuild:
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
+    className: Reiniciar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
     className: Rotacion
   - hash:
       serializedVersion: 2
@@ -503,6 +509,18 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Pause
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Pausa
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -525,6 +543,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Escenas
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -615,30 +639,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Pause
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Pausa
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Escenas
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Reiniciar
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
